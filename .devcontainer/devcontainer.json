@@ -1,0 +1,6 @@
+{
+    "name": "Bitcoin Test Environment",
+    "image": "ubuntu:22.04",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "forwardPorts": [18443]
+}
